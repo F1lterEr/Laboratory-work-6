@@ -6,7 +6,12 @@ class XY{
     void Sum(double x, double y){
         double z;
         z = (x+y)/(y+1);
-        System.out.println("Z = " + z);
+        if (y+1 == 0){
+            System.out.println("Z = 0");
+        }
+        else {
+            System.out.println("Z = " + z);
+        }
     }
 }
 
